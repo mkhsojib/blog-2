@@ -34,7 +34,7 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request->all());
     }
 
     /**
@@ -45,7 +45,7 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**
